@@ -56,6 +56,11 @@ main_page_head = '''
             top: 0;
             background-color: white;
         }
+        .center-pagetitle-text {
+            text-align:center;
+            font-weight: bold;
+            text-decoration: underline;
+        }
 
     </style>
     <script type="text/javascript" charset="utf-8">
@@ -114,6 +119,7 @@ main_page_content = '''
       </div>
     </div>
     <div class="container">
+      <h1 class="center-pagetitle-text">Top Movies</h1>
       {movie_tiles}
     </div>
   </body>
