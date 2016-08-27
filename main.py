@@ -56,6 +56,14 @@ avengers = MTW("The Avengers", "Join Iron Man, Captain America, Black Widow, Hul
                 "http://billal-chendar.esy.es/img/culture/film/avengers.jpg",
                 "https://www.youtube.com/watch?v=eOrNdBpGMv8")
 
+#Print story lines for each movie
+print starwars7.storyline
+print wallE.storyline
+print dbzrF.storyline
+print darkKnight.storyline
+print deadpool.storyline
+print avengers.storyline
+
 #Sets up the array for displaying each of the movie trailers
 mymovies = [starwars7, wallE, dbzrF, darkKnight, deadpool, avengers]
 
