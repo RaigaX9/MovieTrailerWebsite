@@ -48,13 +48,14 @@ darkKnight = MTW("The Dark Knight",
 #Deadpool
 deadpool = MTW("Deadpool",
                "Marvel's super awesome, action-packed, fourth wall breaking, merc with the mouth Deadpool finally has his own movie!",
-                "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/02cc1333658190.56b2c8ea3720a.png",
+               "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/02cc1333658190.56b2c8ea3720a.png",
                 "https://www.youtube.com/watch?v=ONHBaC-pfsk")
 
 #The Avengers
-avengers = MTW("The Avengers", "Join Iron Man, Captain America, Black Widow, Hulk, Thor, and Hawkeye teaming up to become the Avengers to fight against Loki and his evil army.",
-                "http://billal-chendar.esy.es/img/culture/film/avengers.jpg",
-                "https://www.youtube.com/watch?v=eOrNdBpGMv8")
+avengers = MTW("The Avengers",
+               "Join Iron Man, Captain America, Black Widow, Hulk, Thor, and Hawkeye teaming up to become the Avengers to fight against Loki and his evil army.",
+               "http://billal-chendar.esy.es/img/culture/film/avengers.jpg",
+               "https://www.youtube.com/watch?v=eOrNdBpGMv8")
 
 #Print story lines for each movie
 print starwars7.storyline
