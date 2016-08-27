@@ -19,6 +19,8 @@ class MTW():
 #            RETRIEVE MOVIES              #
 ###########################################
 
+#Creating various movie trailers based on their title, storyline, poster image and trailer video
+
 #Star Wars Episode VII: The Force Awakens
 starwars7 = MTW("Star Wars Episode VII: The Force Awakens", "Return of the REAL Star Wars saga.",
                 "http://vignette2.wikia.nocookie.net/starwars/images/f/fd/Star_Wars_Episode_VII_The_Force_Awakens.jpg/revision/latest?cb=20151018162823",
@@ -49,5 +51,8 @@ avengers = MTW("The Avengers", "Join Iron Man, Captain America, Black Widow, Hul
                 "http://billal-chendar.esy.es/img/culture/film/avengers.jpg",
                 "https://www.youtube.com/watch?v=eOrNdBpGMv8")
 
+#Sets up the array for displaying each of the movie trailers
 mymovies = [starwars7, wallE, dbzrF, darkKnight, deadpool, avengers]
+
+#Create and run the HTML file
 fresh_tomatoes.open_movies_page(mymovies)
